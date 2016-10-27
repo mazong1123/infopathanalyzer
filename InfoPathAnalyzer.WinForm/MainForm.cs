@@ -16,18 +16,10 @@ namespace GeekBangCN.InfoPathAnalyzer.WinForm
     {
         private MemoryStream xsnFileStream;
         private Model.Control controlTreeViewSelectedControl;
-        private bool isTrial;
 
-        public MainForm(bool isTrial)
+        public MainForm()
         {
             InitializeComponent();
-            this.isTrial = isTrial;
-
-            // Update the form caption for trial version.
-            if (this.isTrial)
-            {
-                this.Text += " (Trial Version)";
-            }
         }
 
         private void Initialize(string infoPathTemplateFilePath)
@@ -309,20 +301,15 @@ namespace GeekBangCN.InfoPathAnalyzer.WinForm
             this.Close();
         }
 
-        private void OnBuyToolStripMenuItemClick(object sender, EventArgs e)
-        {
-            System.Diagnostics.Process.Start("https://www.plimus.com/jsp/buynow.jsp?contractId=3033042");
-        }
-
         private void OnAboutToolStripMenuItemClick(object sender, EventArgs e)
         {
-            AboutForm aboutForm = new AboutForm(this.isTrial);
+            AboutForm aboutForm = new AboutForm();
             aboutForm.ShowDialog();
         }
 
         private void OnHelpDocumentToolStripMenuItemClick(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("http://mazong1123.wordpress.com/2011/08/18/infopath-analyzer-1-0-user-guide/");
+            System.Diagnostics.Process.Start("https://github.com/mazong1123/infopathanalyzer");
         }
     }
 }

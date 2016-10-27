@@ -23,7 +23,7 @@ namespace GeekBangCN.InfoPathAnalyzer.WinForm
                 Directory.CreateDirectory(infoPathAnalyzerAppDataFolder);
             }
 
-            Application.Run(new MainForm(false));
+            Application.Run(new MainForm());
         }
     }
 }

@@ -42,7 +42,6 @@
             this.exitMainMenuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpHToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpDocumentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.buyBToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutAToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tbcViewer = new System.Windows.Forms.TabControl();
             this.tbpViewer = new System.Windows.Forms.TabPage();
@@ -61,8 +60,8 @@
             // 
             // tbcFieldControlTreeView
             // 
-            this.tbcFieldControlTreeView.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)));
+            this.tbcFieldControlTreeView.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.tbcFieldControlTreeView.Controls.Add(this.tbpFieldTreeView);
             this.tbcFieldControlTreeView.Controls.Add(this.tbpControlTreeView);
             this.tbcFieldControlTreeView.Location = new System.Drawing.Point(6, 6);
@@ -85,8 +84,8 @@
             // fieldTreeViewControl
             // 
             this.fieldTreeViewControl.AcceptButton = null;
-            this.fieldTreeViewControl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)));
+            this.fieldTreeViewControl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.fieldTreeViewControl.DataManager = null;
             this.fieldTreeViewControl.Location = new System.Drawing.Point(6, 7);
             this.fieldTreeViewControl.Name = "fieldTreeViewControl";
@@ -107,8 +106,8 @@
             // controlTreeViewControl
             // 
             this.controlTreeViewControl.AcceptButton = null;
-            this.controlTreeViewControl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)));
+            this.controlTreeViewControl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.controlTreeViewControl.DataManager = null;
             this.controlTreeViewControl.Location = new System.Drawing.Point(6, 7);
             this.controlTreeViewControl.Name = "controlTreeViewControl";
@@ -117,9 +116,9 @@
             // 
             // gbPreview
             // 
-            this.gbPreview.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.gbPreview.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.gbPreview.Controls.Add(this.previewControl);
             this.gbPreview.Location = new System.Drawing.Point(342, 6);
             this.gbPreview.Name = "gbPreview";
@@ -131,9 +130,9 @@
             // previewControl
             // 
             this.previewControl.AcceptButton = null;
-            this.previewControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.previewControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.previewControl.DataManager = null;
             this.previewControl.Location = new System.Drawing.Point(6, 20);
             this.previewControl.Name = "previewControl";
@@ -179,7 +178,6 @@
             // 
             this.helpHToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.helpDocumentToolStripMenuItem,
-            this.buyBToolStripMenuItem,
             this.aboutAToolStripMenuItem});
             this.helpHToolStripMenuItem.Name = "helpHToolStripMenuItem";
             this.helpHToolStripMenuItem.Size = new System.Drawing.Size(68, 21);
@@ -193,13 +191,6 @@
             this.helpDocumentToolStripMenuItem.Text = "Help Document (&H)";
             this.helpDocumentToolStripMenuItem.Click += new System.EventHandler(this.OnHelpDocumentToolStripMenuItemClick);
             // 
-            // buyBToolStripMenuItem
-            // 
-            this.buyBToolStripMenuItem.Name = "buyBToolStripMenuItem";
-            this.buyBToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
-            this.buyBToolStripMenuItem.Text = "Buy (&B)";
-            this.buyBToolStripMenuItem.Click += new System.EventHandler(this.OnBuyToolStripMenuItemClick);
-            // 
             // aboutAToolStripMenuItem
             // 
             this.aboutAToolStripMenuItem.Image = global::GeekBangCN.InfoPathAnalyzer.WinForm.Properties.Resources.About1;
@@ -210,9 +201,9 @@
             // 
             // tbcViewer
             // 
-            this.tbcViewer.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.tbcViewer.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.tbcViewer.Controls.Add(this.tbpViewer);
             this.tbcViewer.Controls.Add(this.tbpEditor);
             this.tbcViewer.Location = new System.Drawing.Point(12, 25);
@@ -237,8 +228,8 @@
             // elementControlMapControl
             // 
             this.elementControlMapControl.AcceptButton = null;
-            this.elementControlMapControl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.elementControlMapControl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.elementControlMapControl.DataManager = null;
             this.elementControlMapControl.Location = new System.Drawing.Point(6, 291);
             this.elementControlMapControl.Name = "elementControlMapControl";
@@ -258,9 +249,9 @@
             // 
             // htmlEditorControl
             // 
-            this.htmlEditorControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.htmlEditorControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.htmlEditorControl.Location = new System.Drawing.Point(6, 6);
             this.htmlEditorControl.Name = "htmlEditorControl";
             this.htmlEditorControl.Size = new System.Drawing.Size(729, 405);
@@ -311,7 +302,6 @@
         private System.Windows.Forms.TabPage tbpViewer;
         private System.Windows.Forms.TabPage tbpEditor;
         private System.Windows.Forms.ToolStripMenuItem helpDocumentToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem buyBToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aboutAToolStripMenuItem;
         private UC.Control.HtmlEditor.HtmlEditorControl htmlEditorControl;
 

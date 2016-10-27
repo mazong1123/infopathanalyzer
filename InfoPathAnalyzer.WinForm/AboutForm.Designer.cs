@@ -101,10 +101,10 @@
             this.lnklblSupport.AutoSize = true;
             this.lnklblSupport.Location = new System.Drawing.Point(154, 65);
             this.lnklblSupport.Name = "lnklblSupport";
-            this.lnklblSupport.Size = new System.Drawing.Size(137, 12);
+            this.lnklblSupport.Size = new System.Drawing.Size(125, 12);
             this.lnklblSupport.TabIndex = 1;
             this.lnklblSupport.TabStop = true;
-            this.lnklblSupport.Text = "support@geekbangcn.com";
+            this.lnklblSupport.Text = "mazong1123@gmail.com";
             this.lnklblSupport.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.OnSupportLinkClicked);
             // 
             // lblSplit

@@ -11,20 +11,16 @@ namespace GeekBangCN.InfoPathAnalyzer.WinForm
 {
     public partial class AboutForm : Form
     {
-        public AboutForm(bool isTrial)
+        public AboutForm()
         {
             InitializeComponent();
-            if (isTrial)
-            {
-                this.lblVersion.Text += " (Trial Version)";
-            }
         }
 
         private void OnHomePageLinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             try
             {
-                System.Diagnostics.Process.Start("http://mazong1123.wordpress.com/2011/08/18/infopath-analyzer-1-0-overview/");
+                System.Diagnostics.Process.Start("http://www.mazong1123.com/");
             }
             catch
             {
@@ -35,7 +31,7 @@ namespace GeekBangCN.InfoPathAnalyzer.WinForm
         {
             try
             {
-                System.Diagnostics.Process.Start("mailto:support@geekbangcn.com");
+                System.Diagnostics.Process.Start("mailto:mazong1123@gmail.com");
             }
             catch
             {
