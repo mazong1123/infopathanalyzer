@@ -1,0 +1,6 @@
+{
+  "name": "InfoPath Analyzer",
+  "tagline": "The source code of InfoPath Analyzer",
+  "body": "### What's InfoPath Analyzer?\r\nIt's a tool to show the inside of InfoPath templates. It allows you to search fields, list tree hierarchy across views and etc. \r\n\r\n### Support or Contact\r\nHaving trouble with InfoPath Analyzer? File an issue on [GitHub](https://github.com/mazong1123/infopathanalyzer/issues).",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
